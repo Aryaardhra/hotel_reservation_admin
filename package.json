@@ -20,6 +20,7 @@
     "@mui/x-data-grid": "^6.18.1",
     "axios": "^1.6.2",
     "bootstrap": "^5.3.2",
+    "latest-version": "^7.0.0",
     "react-circular-progressbar": "^2.1.0",
     "react-router-dom": "^6.20.0",
     "react-scripts": "^5.0.1",
