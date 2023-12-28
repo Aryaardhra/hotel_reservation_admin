@@ -1,0 +1,75 @@
+.admin_navbar {
+    height: 50px;
+    border-bottom:0.5px solid rgb(231, 228, 228) ;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #c9a0a0;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(183,0,255,1) 30%, rgba(2,0,36,1) 67%);
+    /*background-color: rgb(1 4 54);*/
+
+    .nav_wrapper {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+         
+        .nav_search {
+            display: flex;
+            align-items: center;
+            border: 0.5px solid lightgray;
+            padding: 3px;
+ 
+        input {
+        border: none;
+        outline: none;
+        background: transparent;
+        color: #b9c1c9;
+
+        & ::placeholder{
+         font-size: 12px;
+         
+        }
+        }
+    }
+        .nav_items {
+            display: flex;
+            align-items: center;
+
+            .nav_item {
+                display: flex;
+                align-items: center;
+                margin-right: 20px;
+                position: relative;
+
+                .icon {
+                    font-size: 20px;
+                }
+
+                .avatar {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                }
+
+                .nav_counter{
+                    width: 15px;
+                    height: 15px;
+                    background-color: red;
+                    border-radius: 50%;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 10px;
+                    font-weight: bold;
+                    position: absolute;
+                    top: -5px;
+                    right:-5px;
+                    
+                }
+            }
+        }
+    }
+}
