@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ionic:build": "node --max-old-space-size=16384 ./node_modules/@ionic/app-scripts/bin/ionic-app-scripts.js build",
     "start": "react-scripts start ",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -22,6 +21,7 @@
     "axios": "^1.6.2",
     "bootstrap": "^5.3.2",
     "latest-version": "^7.0.0",
+    "npm-uninstall": "^1.0.0",
     "react-circular-progressbar": "^2.1.0",
     "react-router-dom": "^6.20.0",
     "react-scripts": "^5.0.1",
